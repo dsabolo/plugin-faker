@@ -1,5 +1,5 @@
 {
-  "name":             "pattern-lab/plugin-faker",
+  "name":             "dsabolo/plugin-faker",
   "description":      "Faker Support for Pattern Lab",
   "keywords":         ["faker", "pattern lab"],
   "homepage":         "http://patternlab.io",
@@ -23,9 +23,19 @@
       "PatternLab\\Faker": "src/"
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dsabolo/patternlab-php-core"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/dsabolo/Zippy"
+    }
+  ],
   "require": {
-    "php":              ">=5.4",
-    "pattern-lab/core": "^2.3.0",
+    "php":              ">=8.1",
+    "dsabolo/pattern-lab-core": "^0.0.1",
     "fzaninotto/faker": "^1.0.0"
   },
   "extra": {
