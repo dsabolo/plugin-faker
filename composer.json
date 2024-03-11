@@ -30,7 +30,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/dsabolo/Zippy"
+      "url": "https://github.com/dsabolo/zippy"
     }
   ],
   "require": {
